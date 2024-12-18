@@ -1,26 +1,15 @@
-# Ignore node_modules directory
-node_modules/
-
-# Ignore log files
-*.log
-
-# Ignore build directories
-dist/
-build/
-
-# Ignore environment variables
-.env
-
-# Ignore IDE specific files
-.vscode/
-.idea/
-
-# Ignore OS generated files
-.DS_Store
-Thumbs.db
-
-# Ignore Rider specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.Xpence.Backend.iml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# GitHub Copilot persisted chat sessions
+/copilot/chatSessions
