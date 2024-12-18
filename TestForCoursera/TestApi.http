@@ -1,0 +1,29 @@
+### Get all employees
+GET http://localhost:5000/employees
+
+### Get employee by ID
+GET http://localhost:5000/employees/1
+
+### Create a new employee
+POST http://localhost:5000/employees
+Content-Type: application/json
+ApiKey: your-api-key-here
+
+{
+  "Name": "Alice Johnson",
+  "Position": "Designer"
+}
+
+### Update an existing employee
+PUT http://localhost:5000/employees/1
+Content-Type: application/json
+ApiKey: your-api-key-here
+
+{
+  "Name": "John Doe Updated",
+  "Position": "Senior Developer"
+}
+
+### Delete an employee
+DELETE http://localhost:5000/employees/2
+ApiKey: your-api-key-here
